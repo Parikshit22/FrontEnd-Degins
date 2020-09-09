@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Good Vibe Form</h1>
+    <div>
+        <form action="">
+        <table>
+            <tr>
+                <th colspan="2" ><p id = "form_title">Tell us something positive that happened to you today.</p></th>
+            </tr>
+            <tr>
+                <td class = "field"><label>Name</label></td>
+                <td><input style="height: 25px;  width : 200px;" type="text" name="name" placeholder="Enter Your Name" id ="name"></td>
+            </tr>
+            <tr>
+                <td class = "field"><label>Email</label></td>
+                <td><input style=" height: 25px; width : 200px;" type="email" name="email" placeholder="Enter your email address" id = "email"></td>
+            </tr>
+            <tr>
+                <td class = "field"><label>On a scale of 1-10, how good was it?</label></td>
+                <td><input style=" height: 25px; width : 200px;" type="number" name="number" id="number" min="1" max="10" placeholder="Enter a number b/w 1 to 10"></td>
+            </tr>
+            <tr>
+                <td class = "field"><label>Where did it happen?</label></td>
+                <td>
+                    <select style = "height: 25px; " name="location" id="location">
+                        <option value="At home">At home</option>
+                        <option value="On my commute">On my commute</option>
+                        <option value="At Work">At Work</option>
+                        <option value="On the street">On the street</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class = "field"><label>At what time of day did it happen?</label></td>
+                <td>
+                    <input type="radio" id="morning" name="day" value="Morning">
+                    <label for="morning">Morning</label><br>
+                    <input type="radio" id="afternoon" name="day" value="Afternoon">
+                    <label for="afternoon">Afternoon</label><br>
+                    <input type="radio" id="evening" name="day" value="Evening">
+                    <label for="evening">Evening</label>
+                </td>
+            </tr>
+            <tr>
+                <td class = "field"><label>What emotions did you experience?
+                    (Select all that apply)</label></td>
+                <td>
+                    <input type="checkbox" id="Excited" name="emotions" value="Excited">
+                    <label for="Excited"> Excited</label><br>
+                    <input type="checkbox" id="Humbled" name="emotions" value="Humbled">
+                    <label for="Humbled"> Humbled</label><br>
+                    <input type="checkbox" id="Elated" name="emotions" value="Elated">
+                    <label for="Elated"> Elated</label><br>
+                    <input type="checkbox" id="Loved" name="emotions" value="Loved">
+                    <label for="Loved"> Loved</label> <br>
+                    <input type="checkbox" id="Enthusiastic" name="emotions" value="Enthusiastic">
+                    <label for="Enthusiastic"> Enthusiastic</label>     
+                </td>
+            </tr>
+            <tr>
+                <td class = "field"><label>Please describe your positive experience.</label></td>
+                <td><textarea id="event-details" style="height: 50px; width : 200px; resize:vertical;font-family: Open Sans Condensed;" name="event-details"  placeholder="Enter your experience here..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><button id="submit" type="submit" >Submit</button></td>
+            </tr>
+
+        </table>
+        </form>
+    </div>
+</body>
+</html>

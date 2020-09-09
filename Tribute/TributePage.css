@@ -1,0 +1,48 @@
+.container{
+    border: 1px;
+    border-style: dotted;
+    background-color: rgb(205, 207, 207);
+    margin :20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+}
+
+.image{
+    display: block;
+    height : 400px;
+    width : 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#image_text{
+
+    display: table;
+    margin: 0px auto 0px auto; 
+    padding:10px;
+    background-color:rgb(190, 190, 190);
+    
+}
+
+#uptext{
+    margin :30px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-style: dotted;
+    border-color: grey;
+}
+
+.image_container{
+    padding: 10px;
+    margin :30px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-style: dotted;
+    border-color: grey;
+}
+
+.poem{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}

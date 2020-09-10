@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+
+#header_btn{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+#header_btn a {
+    
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    height: 40px;
+    padding-top:20px;
+}
+div > a:hover {
+    background-color: #800000;
+}
+#Overview{
+    background-image: url("1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+#preview_text{
+    
+    font-family: 'PT Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px;
+    width: 80%;
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+#Music{
+    background-color: #252529;
+    width: 100%;
+    height: 1150px;
+}
+
+#img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 60%;
+}
+
+#Video{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 1400px;
+}
+#img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 900px;
+}
+
+#Middle{
+    background-image: url("4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#gift{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 450px;
+
+}
+.img3{
+    color: #333333;
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 40%;
+}
+#contacts{
+    background-color: #333;
+    width: 100%;
+    height: 250px;
+    
+}
+.contact_info{
+    line-height: 1.4em;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: lighter;
+    color: #f4f4f4;
+    float: left;
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 15%;
+    display: block;
+    text-decoration: none;
+}
+.contact_info a {
+    
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}

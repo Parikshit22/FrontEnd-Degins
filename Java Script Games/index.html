@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center align-item-center bg-danger">
+                <div class="col-md-8 pt-5 text-center ">
+                    <h1>Challange: Your Age in Days</h1>
+                    <div class="bg-dark py-5 d-flex justify-content-around">
+                        <button class="btn btn-primary" onclick="ageindays()">Click me</button>
+                        <button class="btn btn-danger" onclick="reset()">reset</button>     
+                    </div>
+                    <div  id = "agecal" class="bg-secondary mb-0">
+                        <h2 id="agee"></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-item-center bg-info">
+                <div class="col-md-8 pt-5 text-center ">
+                    <h1>Generate Cat:</h1>
+                    <div class=" py-5 d-flex justify-content-around">
+                        <button class="btn btn-success" onclick="gencat()">Click me</button>
+                    </div>
+                    <div class=" py-2  " id="addcat">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="row justify-content-center align-item-center bg-danger">
+                <h1>Rock, Paper & Scissors:</h1>
+            </div> 
+            <div class="row justify-content-center align-item-center bg-danger"></div>
+                <div class="col-md-10 pt-5 text-center mx-auto ">
+                    <div id="rps_box" class="d-flex justify-content-between">
+                        <img src="paper.png" id="paper" alt="paper" width="200",height = "200" class="img_hover " onclick="rps(this)">
+                
+                        <img src="stone.png" id="stone" alt="stone" width="300",height = "300" class="img_hover" onclick="rps(this)">
+                    
+                        <img src="scissors.png" id="scissor" alt="scissors" width="200",height = "200" class="img_hover" onclick="rps(this)">
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+    </section>
+        <div class="container">
+            <div class="row justify-content-center align-item-center bg-danger">
+                <div class="col-md-8 pt-5 text-center ">
+                    <h1>Challange: Blackjack</h1>
+                    <h1 >Let's Play</h1>
+                    <hr style=" border: 3px solid">
+                </div>
+            </div>
+            <div class="row justify-content-center text-light align-item-center bg-danger height" >
+                <div class="col-lg-6 pt-5 text-center" style="border: 3px solid black;">
+                    <h1>You: <span id="score_value"></span></h1>
+                    <div id="you_score">
+
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 text-center " style="border: 3px solid black;">
+                    <h1>Dealer: <span id="score_value_dealer"></span></h1>
+                    <div id="dealer_score">
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center align-item-center bg-danger pt-5 pb-3">
+                <button class="btn btn-primary mx-4" id="hit">Hit</button>
+                <button class="btn btn-warning mx-4" id="stand">Stand</button>
+                <button class="btn btn-dark mx-4" id="deal">Deal</button>
+            </div>
+            <div class="row justify-content-center align-item-center bg-danger text-light pb-5">
+                <table border=4 cellspacing=3 cellpadding=3>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+                    <tr>
+                        <td id="win">0</td>
+                        <td id="lose">0</td>
+                        <td id="draw">0</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="../../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../Bootstrap/js/jquery-3.5.1.min.js"></script>
+</body>
+</html>

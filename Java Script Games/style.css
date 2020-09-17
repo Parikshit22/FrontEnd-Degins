@@ -1,0 +1,32 @@
+.img_hover:hover{
+-moz-box-shadow: 0 0 10px #b30000;
+-webkit-box-shadow: 0 0 10px #b30000;
+box-shadow: 0 0 10px #b30000;
+              }
+
+
+.height{
+min-height: 60vh;
+background-image: url(greenn.jpg);
+}
+
+.rtx{
+        transform: rotatey(180deg); 
+        transform: rotatey(180deg); 
+}
+
+.imgw{
+    -moz-box-shadow: 0 0 10px #06ee40;
+    -webkit-box-shadow: 0 0 10px #06ee40;
+    box-shadow: 0 0 10px #06ee40;
+}
+.imgl{
+    -moz-box-shadow: 0 0 10px #b30000;
+    -webkit-box-shadow: 0 0 10px #b30000;
+    box-shadow: 0 0 10px #b30000;
+}
+.imgt{
+    -moz-box-shadow: 0 0 10px #faea0e;
+    -webkit-box-shadow: 0 0 10px #faea0e;
+    box-shadow: 0 0 10px #faea0e;
+}

@@ -1,0 +1,40 @@
+.height {
+  min-height: 100vh;
+}
+li {
+  list-style: none;
+  padding: 10px 10px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #025f70;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #4eb9cd;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5 ease;
+}
+
+li:hover {
+  background: #76cfe0;
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
+.close {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  right: 4%;
+  padding: 12px 10px;
+  transform: translate(0%, -50%);
+}

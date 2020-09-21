@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent Marker"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container-fluid">
+        <div class="row bg-primary text-center height">
+          <div class="col">
+            <h1 class="text-white">WORK TO-DOS</h1>
+            <h5 class="text-warning">
+              Enter text into the input field to add items to your list.
+            </h5>
+            <h4 class="text-success">Click the item to mark it as complete.</h4>
+            <h5 class="text-warning">
+              Click the "X" to remove the item from your list.
+            </h5>
+            <div class="form-group mt-3 d-flex justify-content-center">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-check"></i>
+                </span>
+              </div>
+              <div class="col-sm-5">
+                <input
+                  class="form-control"
+                  id="ex1"
+                  placeholder="Your Item..."
+                  type="text"
+                />
+              </div>
+
+              <button class="btn btn-success" onclick="attach()">Submit</button>
+            </div>
+            <div>
+              <ul class="offset-0 col-sm-4 offset-sm-4 mt-5" id="tags"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="../../Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../Bootstrap/js/jquery-3.5.1.min.js"></script>
+  </body>
+</html>
